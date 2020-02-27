@@ -63,8 +63,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#494949;
   margin:0 0 20px;
+  font: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p, ul, ol, table, pre, dl {
@@ -79,12 +80,35 @@ h1 {
   font-size:28px;
 }
 
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.30em;
+    margin-block-end: 0.30em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 h2 {
   color:#393939;
 }
 
 h3, h4, h5, h6 {
   color:#494949;
+  font: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 a {
@@ -94,6 +118,7 @@ a {
 
 a:hover {
   color:#069;
+  opacity: 0.4;
 }
 
 a small {
